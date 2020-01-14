@@ -1,3 +1,4 @@
+English | [中文](README_CN.md)
 Image for running Oracle Database 11g Standard/Enterprise. Due to oracle license restrictions image is not contain database itself and will install it on first run from external directory.
 
 ``This image for development use only``
