@@ -8,5 +8,8 @@ if [ ! -d "/opt/oracle/app/product/11.2.0/dbhome_1" ]; then
 	/assets/install.sh
 fi
 
+cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+echo "Asia/shanghai" > /etc/timezone
+
 su oracle -c "/assets/entrypoint_oracle.sh"
 
